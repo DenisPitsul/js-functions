@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.card{
+    margin: 100px auto;
+    min-width: 280px;
+    max-width: 320px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+}
+.img{
+    width: 100%;
+    padding: 10px ;
+    object-fit: cover;
+}
+.name{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.description{
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.price-wrapper{
+    margin-top: auto;
+}
+.price{
+    font-size: 28px;
+}
+.old-price{
+    font-size: 18px;
+    text-decoration: line-through;
+    color: gray;
+}
+.new-price-wrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-price{
+    font-size: 28px;
+    color: red;
+}
+.discount{
+    font-size: 20px;
+    color: green;
+}
