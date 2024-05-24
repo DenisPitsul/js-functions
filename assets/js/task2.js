@@ -5,15 +5,7 @@
  * @returns {boolean} Is firstNumber can divide to secondNumber without remainder
  */
 const checkMultiplicity = function(firstNumber, secondNumber) {
-    if(secondNumber === 0) {
-        return false;
-    }
-
-    if(firstNumber % secondNumber === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return !(secondNumber === 0) && firstNumber % secondNumber === 0;
 }
 
 const fisrtNumber1 = 25;
